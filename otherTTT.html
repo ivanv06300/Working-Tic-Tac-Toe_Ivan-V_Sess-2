@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIC-TAC-TOE</title>
+    <link rel="stylesheet" href="otherTTT.css">
+    <script src="otherTTT.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montagu+Slab&family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <h1>TIC-TAC-TOE</h1>
+
+    <p id="tis">Player's Turn:</p> <div id="player">X</div>
+   
+<main>
+    <input type="text" id="b0" onclick="bx0(); checkwin();" readonly>
+    <input type="text" id="b1" onclick="bx1(); checkwin();" readonly>
+    <input type="text" id="b2" onclick="bx2(); checkwin();" readonly>
+    <input type="text" id="b3" onclick="bx3(); checkwin();" readonly>
+    <input type="text" id="b4" onclick="bx4(); checkwin();" readonly>
+    <input type="text" id="b5" onclick="bx5(); checkwin();" readonly>
+    <input type="text" id="b6" onclick="bx6(); checkwin();" readonly>
+    <input type="text" id="b7" onclick="bx7(); checkwin();" readonly>
+    <input type="text" id="b8" onclick="bx8(); checkwin();" readonly>
+</main>
+
+    <button id="reset" onClick="window.location.reload();">Reset</button>
+
+</body>
+</html>
